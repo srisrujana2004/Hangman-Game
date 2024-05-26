@@ -1,1 +1,3 @@
 # Hangman-Game
+
+Hangman Game is a word guessing game where players attempt to guess a secret word one letter at a time. In this Python implementation of the game, Tkinter,a GUI library for Python, is used to create the graphical user interface. The game randomly selects a word from a predefined list and displays it as a series of blank spaces representing each letter. Players guess letters by clicking on buttons corresponding to the alphabet. If a guessed letter is correct, it fills in the corresponding blank spaces in the word display. If incorrect, it incrementally draws a hangman figure using a canvas widget. The game ends when the player successfully guesses the word or runs out of attempts.
